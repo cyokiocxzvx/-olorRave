@@ -79,28 +79,32 @@ header {
     width: 100px;
     height: 60px;
 }
+.header-list {
+    display: flex;
+    align-items: center;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
 
-nav a {
+.header-content-link {
     text-decoration: none;
     margin-right: 29px;
     color: var(--grey);
     transition: transform .4s ease;
     display: inline-block;
+    margin-right: 29px;
 }
 
-nav a:hover {
+.header-content-link:hover {
     transform: scale(1.05);
 }
 
-nav a:first-of-type {
+.header-content-link:first-of-type {
     font-style: normal;
-    font-weight: 400;
+    font-weight: 300;
     line-height: normal;
     ml200px
-}
-
-nav a:last-of-type {
-    margin-right: 0;
 }
 
 .active {
@@ -239,15 +243,15 @@ nav a:last-of-type {
     border-right: 1px solid var(--white);
     border-left: 0px;
 }
-.advantages_box h3 {
+.advantages-title:first-of-type {
     padding-top: 25px;
 }
 
-.advantages-box h4 {
+.advantages-title h2 {
     padding-bottom: 25px;
 }
 
-.advantages-box h5 {
+.advantages-title:last-of-type {
     padding-top: 22px;
     padding-bottom: 6px;
 }
