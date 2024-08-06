@@ -5,7 +5,7 @@
     --violet: #8E32C6;
     --grey3: #959595;
     --dark_blue: #021635;
-    --light:#D8D8D8; 
+    --light: #D8D8D8;
 }
 
 h1,
@@ -62,14 +62,14 @@ html {
 
 header {
     background: #012D63;
+    padding-top: 30px;
+    padding-bottom: 33px;
 }
 
 .header-content {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-top: 30px;
-    padding-bottom: 33px;
     font-style: normal;
     font-weight: 300;
     line-height: normal;
@@ -79,6 +79,7 @@ header {
     width: 100px;
     height: 60px;
 }
+
 .header-list {
     display: flex;
     align-items: center;
@@ -152,7 +153,7 @@ header {
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    w178
+    margin-left: 30px;
 }
 
 .content-title {
@@ -161,7 +162,7 @@ header {
     font-size: 144px;
     font-style: normal;
     font-weight: 400;
-    line-height: normal;
+    line-height: 1;
     margin-bottom: 0;
 }
 
@@ -171,7 +172,7 @@ header {
     font-size: 72px;
     font-style: normal;
     font-weight: 400;
-    line-height: normal;
+    line-height: 1;
     margin-top: 0;
 }
 
@@ -220,7 +221,20 @@ header {
     align-items: center;
     justify-content: space-between;
     border: 2px solid var(--violet);
+    padding-bottom: 25px;
+    padding-top: 25px;
 
+}
+
+.advantages-titler {
+    color: var(--white);
+    text-align: center;
+    font-family: "Playfair Display";
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 4px;
 }
 
 .advantages-title {
@@ -231,29 +245,40 @@ header {
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-
+    margin-top: 10px;
 }
+
 .advantages-box {
     padding-left: 50px;
     padding-right: 50px;
     border-left: 1px solid var(--white);
 }
+
 .advantages-box:first-of-type {
     border-right: 1px solid var(--white);
     border-left: 0px;
 }
-.advantages-title:first-of-type {
-    padding-top: 25px;
-}
+
+.advantages-title:first-of-type {}
 
 .advantages-title h2 {
     padding-bottom: 25px;
+
+}
+.advantages-img {
+    
+}
+.advantages-titles {
+    margin-bottom: 6px;
+    color: var(--white);
+    text-align: center;
+    font-family: "Playfair Display";
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }
 
-.advantages-title:last-of-type {
-    padding-top: 22px;
-    padding-bottom: 6px;
-}
 /* REviEWS */
 .reviews {
     background-image: url(../img/group.png);
@@ -286,7 +311,8 @@ header {
     border-radius: 15px;
     background: linear-gradient(137deg, #00E5E6 7.29%, #00A8F7 26.04%, #9A76F9 62.5%, #CC5EC2 100%);
     box-shadow: 0px 14px 0px -5px #7B54B2, 0px 30px 0px -13px #533978;
-
+padding-top: 49px;
+margin-bottom: 29px;
     width: 255px;
     height: 292px;
 
@@ -296,7 +322,8 @@ header {
     border-radius: 15px;
     background: linear-gradient(137deg, #FF68B4 0%, #FF45E1 26.04%, #CE3AFF 62.84%, #8961FF 100%);
     box-shadow: 0px 14px 0px -5px #9159B1, 0px 30px 0px -13px #61337C;
-
+padding-top: 49px;
+margin-bottom: 29px;
     width: 255px;
     height: 292px;
 
@@ -307,10 +334,13 @@ header {
     background: linear-gradient(143deg, #FFE128 0%, #FF9B5C 30.21%, #FF8381 63.29%, #FF5489 100%);
     box-shadow: 0px 14px 0px -5px #B95A4C, 0px 30px 0px -13px #732F26;
     width: 255px;
+    padding-top: 49px;
+    margin-bottom: 29px;
     height: 292px;
 
 
 }
+
 .reviews-deskription {
     color: var(--grey2);
     font-size: 14px;
@@ -320,24 +350,25 @@ header {
     padding-left: 18px;
     margin-bottom: 47px;
 }
+
 .reviews-wrapper {
     display: flex;
+    margin-left: 18px;
 }
+
 .reviews-box {
     flex-direction: column;
     margin-left: 5px;
 }
+
 .reviews-img {
     width: 31px;
     height: 31px;
     border-radius: 31px;
-    margin-bottom: 29px;
-    margin-left: 18px;
 }
 
 .reviews_text {
     color: var(--white);
-    padding-top: 49px;
     padding-left: 18px;
     padding-right: 9px;
     font-size: 24px;
@@ -346,33 +377,35 @@ header {
     line-height: normal;
     margin-bottom: 8px;
 }
+
 .reviews-text2 {
     color: var(--white);
-font-size: 14px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }
 
 .reviews-text-third {
     color: var(--light);
-font-family: Roboto;
-font-size: 12px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
+    font-family: Roboto;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }
+
 .reviews-item:last-of-type .main-reviews-text1 {
     color: var(--white);
     padding-top: 49px;
     padding-left: 18px;
     padding-right: 9px;
-    font-size: 24pitem
-    font-style: normal;
+    font-size: 24pitem font-style: normal;
     font-weight: 400;
     line-height: normal;
     margin-bottom: 8px;
 }
+
 
 /* ORDER */
 .order {
@@ -384,6 +417,7 @@ line-height: normal;
     background-size: cover;
     text-align: center;
 }
+
 .order-text {
     color: var(--white);
     font-family: "Playfair Display";
@@ -394,11 +428,13 @@ line-height: normal;
     text-align: center;
     margin-bottom: 33px;
 }
+
 .order-list {
     display: flex;
     flex-direction: column;
     gap: 19px;
 }
+
 .order-input1 {
     width: 690px;
     height: 60px;
@@ -410,6 +446,7 @@ line-height: normal;
     padding-bottom: 12px;
     padding-left: 25px;
 }
+
 .order-input {
     width: 580px;
     height: 50px;
@@ -425,6 +462,7 @@ line-height: normal;
     padding-bottom: 11px;
     padding-left: 24px;
 }
+
 .order-button {
     color: var(--white);
     font-size: 24px;
@@ -438,6 +476,7 @@ line-height: normal;
     border: none;
     margin-top: 19px;
 }
+
 /* FOOTER */
 .nike-footer {
     background-color: var(--dark_blue);
@@ -501,8 +540,21 @@ line-height: normal;
     display: inline-block;
 }
 
-.nike-site-footer-div1 p:first-of-type {
+.nike-footer-box p:first-of-type {
     margin-bottom: 7px;
+    color: var(--white);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.nike-footer-box p {
+    color: var(--white);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }
 
 .nike-web {
@@ -511,11 +563,12 @@ line-height: normal;
     margin-top: 24px;
 }
 
-.nike-site-footer-div2 p {
+.footer-texts {
     color: var(--white);
     font-family: "PT Serif";
     font-size: 24px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+    margin-left: 30px;
 }
