@@ -54,7 +54,7 @@ html {
 }
 
 .container {
-    max-width: 1091px;
+    max-width: 1140px;
     margin: 0px auto;
 }
 
@@ -90,7 +90,6 @@ header {
 
 .header-content-link {
     text-decoration: none;
-    margin-right: 29px;
     color: var(--grey);
     transition: transform .4s ease;
     display: inline-block;
@@ -313,7 +312,7 @@ header {
     box-shadow: 0px 14px 0px -5px #7B54B2, 0px 30px 0px -13px #533978;
 padding-top: 49px;
 margin-bottom: 29px;
-    width: 255px;
+    width: 255px;=
     height: 292px;
 
 }
@@ -324,7 +323,7 @@ margin-bottom: 29px;
     box-shadow: 0px 14px 0px -5px #9159B1, 0px 30px 0px -13px #61337C;
 padding-top: 49px;
 margin-bottom: 29px;
-    width: 255px;
+    width: 255px;=
     height: 292px;
 
 }
@@ -333,7 +332,7 @@ margin-bottom: 29px;
     border-radius: 15px;
     background: linear-gradient(143deg, #FFE128 0%, #FF9B5C 30.21%, #FF8381 63.29%, #FF5489 100%);
     box-shadow: 0px 14px 0px -5px #B95A4C, 0px 30px 0px -13px #732F26;
-    width: 255px;
+    width: 255px;=
     padding-top: 49px;
     margin-bottom: 29px;
     height: 292px;
